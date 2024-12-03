@@ -8,5 +8,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void ButtonClick(object sender, System.EventArgs e)
+        {
+            label1.Text = "Hello World!";
+        }
     }
 }
